@@ -41,3 +41,38 @@ npm start
 
 ![N1 Output](set1/n1-setup/screenshots/n1_output.png)
 
+
+## N2 - Modular Calculator
+
+A command-line calculator built using Node.js custom modules.
+
+### Features
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Average
+- Error handling for division by zero and unknown operations
+- Uses process.argv, require(), and the built-in path module
+
+### How to Run
+
+```bash
+cd set1/n2-calculator
+
+node index.js add 12 8
+node index.js subtract 12 8
+node index.js multiply 12 8
+node index.js divide 12 4
+node index.js average 8 12
+```
+
+### Screenshots
+
+**Calculator Output**
+
+![N2 Calculator Output](set1/n2-calculator/screenshots/n2_calculator_output.png)
+
+**Error Handling**
+
+![N2 Error Handling](set1/n2-calculator/screenshots/n2_error_handling.png)
