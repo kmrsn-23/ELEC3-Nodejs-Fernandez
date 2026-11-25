@@ -27,5 +27,17 @@ npm start
 
 ## Screenshots
 
-Screenshots of each activity will be added
-after completing and testing the programs.
+### N1 – Project Setup and Package Management
+
+**Node.js and npm Version Check**
+
+![N1 Versions](set1/n1-setup/screenshots/n1_versions.png)
+
+**Package JSON Configuration**
+
+![N1 Package JSON](set1/n1-setup/screenshots/n1_package_json.png)
+
+**Successful npm start Output**
+
+![N1 Output](set1/n1-setup/screenshots/n1_output.png)
+
