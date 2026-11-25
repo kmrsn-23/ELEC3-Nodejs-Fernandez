@@ -65,6 +65,21 @@ node index.js subtract 12 8
 node index.js multiply 12 8
 node index.js divide 12 4
 node index.js average 8 12
+
+### Error Handling Tests
+
+Test division by zero:
+
+```bash
+node index.js divide 12 0
+```
+
+Test an unknown operation:
+
+```bash
+node index.js power 12 8
+```
+
 ```
 
 ### Screenshots
