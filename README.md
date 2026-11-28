@@ -29,3 +29,36 @@ npm start
 
 Screenshots of each activity will be added
 after completing and testing the programs.
+
+---
+
+# SET 1 – NODE.JS ACTIVITIES
+
+## N1 – Node.js Setup
+
+This activity demonstrates the installation and setup of Node.js, including checking the Node.js and npm versions and creating a basic Node.js project.
+
+**Run:**
+```bash
+node --version
+npm --version
+node index.js
+```
+
+## N2 – Node.js Calculator
+
+This activity demonstrates the use of JavaScript functions and modules to perform calculator operations.
+
+**Run:**
+```bash
+node index.js
+```
+
+## N3 – Node.js File Manager
+
+This activity demonstrates file management using Node.js built-in modules. It includes creating, reading, writing, renaming, and deleting files.
+
+**Run:**
+```bash
+node index.js
+```
