@@ -1,64 +1,137 @@
+**Name:** Kemerson D. Fernandez  
+**Section:** IV-BSIT-C  
+**Course:** ELEC 3 – Node.js
 
-# ELEC 3 – Node.js
-
-Name: Kemerson D. Fernandez
-Section: IV-BSIT-C
-Course: ELEC 3 – Node.js
+---
 
 ## Set 1 Activities
 
-- [N1 – Project Setup and Package Management](set1/n1-setup)
-  - Create a Node.js project and manage npm packages.
+### N1 – Project Setup and Package Management
+[Open N1 Folder](set1/n1-setup)
 
-- [N2 – Modular Calculator](set1/n2-calculator)
-  - Build a calculator using custom Node.js modules.
+- Create a Node.js project and manage npm packages.
+- Install and use dependencies.
+- Configure npm scripts.
 
-- [N3 – File Manager](set1/n3-file-manager)
-  - Manage text files using fs and path modules.
+### N2 – Modular Calculator
+[Open N2 Folder](set1/n2-calculator)
+
+- Build a calculator using custom Node.js modules.
+- Perform basic arithmetic operations.
+- Handle invalid operations and division by zero.
+
+### N3 – File Manager with fs and path
+[Open N3 Folder](set1/n3-file-manager)
+
+- Create, read, update, and delete text files.
+- Display file information using Node.js `fs` and `path` modules.
+- Handle errors when accessing nonexistent files.
+
+---
 
 ## How to Run
 
-### N1 – Project Setup
+### N1 – Project Setup and Package Management
+
 ```bash
 cd set1/n1-setup
 npm install
 npm start
 ```
 
-## Screenshots
+### N2 – Modular Calculator
 
-Screenshots of each activity will be added
-after completing and testing the programs.
+```bash
+cd set1/n2-calculator
+
+node index.js add 12 8
+node index.js subtract 12 8
+node index.js multiply 12 8
+node index.js divide 12 4
+node index.js average 8 12
+```
+
+**Error Handling Tests**
+
+```bash
+node index.js divide 12 0
+node index.js power 12 8
+```
+
+### N3 – File Manager with fs and path
+
+```bash
+cd set1/n3-file-manager
+
+node index.js create sample.txt "Hello!"
+node index.js read sample.txt
+node index.js update sample.txt " Added text."
+node index.js list
+node index.js delete sample.txt
+```
+
+**Error Handling Tests**
+
+```bash
+node index.js read missing.txt
+node index.js delete missing.txt
+```
 
 ---
 
-# SET 1 – NODE.JS ACTIVITIES
+## Screenshots
 
-## N1 – Node.js Setup
+### N1 – Project Setup and Package Management
 
-This activity demonstrates the installation and setup of Node.js, including checking the Node.js and npm versions and creating a basic Node.js project.
+**Node.js and npm Version Check**
 
-**Run:**
-```bash
-node --version
-npm --version
-node index.js
-```
+![N1 Versions](set1/n1-setup/screenshots/n1_versions.png)
 
-## N2 – Node.js Calculator
+**Package JSON Configuration**
 
-This activity demonstrates the use of JavaScript functions and modules to perform calculator operations.
+![N1 Package JSON](set1/n1-setup/screenshots/n1_package_json.png)
 
-**Run:**
-```bash
-node index.js
-```
+**Successful npm Start Output**
 
-## N3 – Node.js File Manager
+![N1 Output](set1/n1-setup/screenshots/n1_output.png)
 
-This activity demonstrates file management using Node.js built-in modules. It includes creating, reading, writing, renaming, and deleting files.
+---
 
-**Run:**
-```bash
-node index.js
-```
+### N2 – Modular Calculator
+
+**Calculator Output**
+
+![N2 Calculator Output](set1/n2-calculator/screenshots/n2_calculator_output.png)
+
+**Error Handling**
+
+![N2 Error Handling](set1/n2-calculator/screenshots/n2_error_handling.png)
+
+---
+
+### N3 – File Manager with fs and path
+
+**Create Files**
+
+![N3 Create](set1/n3-file-manager/screenshots/n3_create.png)
+
+**Read File**
+
+![N3 Read](set1/n3-file-manager/screenshots/n3_read.png)
+
+**Update File**
+
+![N3 Update](set1/n3-file-manager/screenshots/n3_update.png)
+
+**Delete File**
+
+![N3 Delete](set1/n3-file-manager/screenshots/n3_delete.png)
+
+**List Files**
+
+![N3 List](set1/n3-file-manager/screenshots/n3_list.png)
+
+**Error Handling**
+
+![N3 Error Handling](set1/n3-file-manager/screenshots/n3_error_handling.png)
+
